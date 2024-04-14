@@ -6,11 +6,11 @@ export default defineConfig({
   server:{
     proxy:{
       '/api' : {
-        target: 'http://localhost:8000',
+        target: 'https://crypto-tracker-backend-ccx0.onrender.com/',
         changeOrigin: true
       },
       '/profile' : {
-        target: 'http://localhost:8000',
+        target: 'https://crypto-tracker-backend-ccx0.onrender.com/',
         changeOrigin: true
       }
     },
