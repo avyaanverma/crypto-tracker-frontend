@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 import HomeStore from './pages/HomeStore';
 import CoinPage from './pages/CoinPage';
 
-axios.defaults.baseURL = 'http://localhost:8000';
+axios.defaults.baseURL = 'https://crypto-tracker-backend-ccx0.onrender.com/';
 axios.defaults.withCredentials = true;
 
 function App() {

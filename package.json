@@ -32,5 +32,5 @@
     "eslint-plugin-react-refresh": "^0.4.5",
     "vite": "^5.1.4"
   },
-  "proxy": "http://localhost:8000"
+  "proxy": "https://crypto-tracker-backend-ccx0.onrender.com/"
 }
